@@ -6,61 +6,55 @@
 html {
     font-size: 62.5%;
 }
-
 .nav {
-    width: 100%;
-    height: 10%;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
     background-color: white;
-    display: flex;
-    flex-wrap: nowrap;
-    align-items: center;
-}
-
-.nav1-2{
     width: 100%;
     height: 10%;
-    font-size: 1.5rem;
-    display: flex;
-    justify-content: flex-start;
+}
+.nav1-2 {
     align-items: center;
-    color: black;
 }
-.nav1-2link {
-    color: black;
+.nav1-2 a {
     text-decoration: none;
-}
-.nav1-2 h1 {
-    margin-left: 5rem;
+    color: black;
+    margin-top: 2rem;
+    font-size: 3rem;
+    margin-left: 14rem;
 }
 .nav1-3-lista {
     display: flex;
     flex-direction: row;
-    flex-wrap: nowrap;
     align-items: center;
-    justify-content: flex-end;
 }
-.nav1-3-lista p, a{
+.nav1-3-lista a, p {
+    font-size: 2rem;
+    text-align: center;
     color: black;
     text-decoration: none;
-    margin: 0rem 2.5rem;
-    font-size: 1.5rem;
+    margin: 1rem 2rem;
 }
 .nav1-3-lista button {
-    background-color: black;
-    color: white;
-    width: 18rem;
     height: 4rem;
-    font-size: 1.5rem;
-    margin: 0rem 3rem;
-    padding: 1rem 2rem;
+    width: 20rem;
+    border-color: black;
+    background-color: black;
+    color:white;
+    margin: 0rem 2rem;
+    font-size: 2rem;
+    border-radius: 1.5rem;
 }
-.nav1-3-lista {
-    color: bla;
-}
-.nav-img {
+.nav-figure {
     display: flex;
-    margin-right: 5rem;
-    height: 2.2rem;
+    justify-content: center;
+    align-items: center;
+    margin: 0rem 2rem;
+}
+.nav-figure img {
+    width: 3.5rem;
+    margin: 1rem 0rem;
 }
 
 .main1 {
@@ -76,26 +70,29 @@ html {
     flex-direction: column;
     width: 50%;
     height: 100%;
-    padding: 5rem;
+    padding: 2rem;
     justify-content: center;
 }
 .main1-1 h1 {
-    margin: 2rem 0rem;
+    margin: 1rem 0rem;
     color: white;
-    font-size: 3rem;
+    font-size: 4rem;
 }
 
 .main1-titulo{
     margin: 0rem 0rem;
     color: white;
     font-size: 4rem;
-    padding: 0rem 8rem;
+    padding: 0rem 4rem;
 }
 .main1-texto {
     margin: 4rem 0rem;
     color: white;
-    font-size: 2rem;
-    padding: 0rem 8rem;
+    font-size: 4rem;
+    padding: 0rem 6rem;
+}
+.main1-texto p {
+    font-size: 3rem;
 }
 
 .main1-2 {
@@ -107,8 +104,8 @@ html {
     padding: 5rem;
 }
 .contenedor {
-    height: 35rem;
-    width: 50rem;
+    height: 45rem;
+    width: 65rem;
 }
 .contenedor-img {
     height: 100%;
@@ -125,7 +122,7 @@ html {
 }
 .titulo1 {
     color: white;
-    font-size: 4rem;
+    font-size: 4.5rem;
 }
 .main2 {
     background-color: black;
@@ -136,6 +133,7 @@ html {
 .cuestionario {
     display: flex;
     flex-direction: column;
+    align-items: center;
 }
 .cuestionario1{
     display: flex;
@@ -177,8 +175,8 @@ html {
 
 .enviar {
     display: flex;
-    justify-content: center;
     padding-bottom: 2rem;
+    justify-content: center;
 }
 .enviar input {
     border-radius: 1.5rem;
