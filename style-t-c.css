@@ -139,6 +139,7 @@ html {
     margin: 1rem 0rem;
     width: 50rem;
     height: 3rem;
+    border-radius: 1.5rem;
 }
 .cuestionario2 {
     background-color: black;
@@ -158,6 +159,7 @@ html {
     margin: 1rem 0rem;
     width: 65rem;
     height: 20rem;
+    border-radius: 1.5rem;
 }
 .enviar {
     display: flex;
@@ -166,12 +168,13 @@ html {
     margin: 2rem 0rem;
 }
 .enviar input {
-    border-radius: 1rem;
+    border-radius: 1.5rem;
     font-size: 2.5rem;
     background-color: white;
     color: black;
     height: 4rem;
     width: 13rem;
+    
 }
 
 

@@ -127,6 +127,7 @@ html {
     margin: 1rem 0rem;
     width: 22rem;
     height: 3rem;
+    border-radius: 1.5rem;
 }
 .cuestionario2 {
     background-color: black;
@@ -146,6 +147,7 @@ html {
     margin: 1rem 0rem;
     width: 28rem;
     height: 20rem;
+    border-radius: 1.5rem;
 }
 .enviar {
     display: flex;
@@ -160,6 +162,7 @@ html {
     color: black;
     height: 4rem;
     width: 13rem;
+    border-radius: 1.5rem;
 }
 
 
