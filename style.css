@@ -15,22 +15,25 @@ html {
     height: 10%;
 }
 .nav1-2 {
+    display: flex;
     align-items: center;
+    justify-content: center;
 }
 .nav1-2 a {
     text-decoration: none;
     color: white;
-    margin-top: 2rem;
-    font-size: 3rem;
+    margin-top: 0rem;
+    font-size: 1.7rem;
     margin-left: 14rem;
 }
+
 .nav1-3-lista {
     display: flex;
     flex-direction: row;
     align-items: center;
 }
 .nav1-3-lista a, p {
-    font-size: 2rem;
+    font-size: 1.7rem;
     text-align: center;
     color: white;
     text-decoration: none;
@@ -43,8 +46,7 @@ html {
     background-color: white;
     color:black;
     margin: 0rem 2rem;
-    font-size: 2rem;
-    border-radius: 1.5rem;
+    font-size: 1.7rem;
 }
 .nav-figure {
     display: flex;
@@ -53,7 +55,7 @@ html {
     margin: 0rem 2rem;
 }
 .nav-figure img {
-    width: 3.5rem;
+    width: 2.5rem;
     margin: 1rem 0rem;
 }
 .main1 {
