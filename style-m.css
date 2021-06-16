@@ -20,7 +20,7 @@ html {
     text-decoration: none;
     color: white;
     margin-top: 2rem;
-    font-size: 2.5rem;
+    font-size: 2.2rem;
 }
 .nav1-3-lista {
     display: flex;
@@ -33,7 +33,7 @@ html {
     text-align: center;
     color: white;
     text-decoration: none;
-    margin: 1rem 0.8rem;
+    margin: 1rem 0.5rem;
 }
 .nav1-3-lista button {
     border-color: black;
@@ -47,18 +47,28 @@ html {
 }
 .nav-figure img {
     width: 3rem;
-    margin: 1rem 0rem;
+    margin: rem 0rem;
 }
 .main1 {
     background-color: none;
     width: 100%;
     height: 80%;
 }
-.main1-contenedor img {
-    object-fit: cover   ;
-    height: 100%;
+.main1-contenedor {
+    display: flex;
+    align-items: flex-end;
+    justify-content: center;
     width: 100%;
-    filter: brightness(65%);
+    height: 100%;
+    background-image: url(./Img/foto-portada-2.JPG) ;
+    background-size: cover;
+    background-position-x: 55rem;
+   /*  filter: brightness(60%); */
+}
+.main1-contenedor h1 {
+    color: white;
+    font-size: 3rem;
+    margin: 5rem;
 }
 .main2-c {
     background-color: black;
