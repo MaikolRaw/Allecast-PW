@@ -62,7 +62,6 @@ html {
     height: 100%;
     background-image: url(./Img/foto-portada-2.JPG) ;
     background-size: cover;
-    background-position-x: 55rem;
    /*  filter: brightness(60%); */
 }
 .main1-contenedor h1 {
